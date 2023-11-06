@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE18B0192AF98DFF0084A91C /* InsightFolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0182AF98DFF0084A91C /* InsightFolioApp.swift */; };
+		CE18B01B2AF98DFF0084A91C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B01A2AF98DFF0084A91C /* ContentView.swift */; };
+		CE18B01D2AF98E010084A91C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE18B01C2AF98E010084A91C /* Assets.xcassets */; };
+		CE18B0202AF98E010084A91C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE18B01F2AF98E010084A91C /* Preview Assets.xcassets */; };
+		CE18B02A2AF98E020084A91C /* InsightFolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0292AF98E020084A91C /* InsightFolioTests.swift */; };
+		CE18B0342AF98E020084A91C /* InsightFolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0332AF98E020084A91C /* InsightFolioUITests.swift */; };
+		CE18B0362AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0352AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE18B0262AF98E020084A91C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE18B00D2AF98DFF0084A91C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE18B0142AF98DFF0084A91C;
+			remoteInfo = InsightFolio;
+		};
+		CE18B0302AF98E020084A91C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE18B00D2AF98DFF0084A91C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE18B0142AF98DFF0084A91C;
+			remoteInfo = InsightFolio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE18B0152AF98DFF0084A91C /* InsightFolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsightFolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE18B0182AF98DFF0084A91C /* InsightFolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightFolioApp.swift; sourceTree = "<group>"; };
+		CE18B01A2AF98DFF0084A91C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE18B01C2AF98E010084A91C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE18B01F2AF98E010084A91C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE18B0252AF98E020084A91C /* InsightFolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsightFolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE18B0292AF98E020084A91C /* InsightFolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightFolioTests.swift; sourceTree = "<group>"; };
+		CE18B02F2AF98E020084A91C /* InsightFolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsightFolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE18B0332AF98E020084A91C /* InsightFolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightFolioUITests.swift; sourceTree = "<group>"; };
+		CE18B0352AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightFolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE18B0122AF98DFF0084A91C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE18B0222AF98E020084A91C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE18B02C2AF98E020084A91C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE18B00C2AF98DFF0084A91C = {
+			isa = PBXGroup;
+			children = (
+				CE18B0172AF98DFF0084A91C /* InsightFolio */,
+				CE18B0282AF98E020084A91C /* InsightFolioTests */,
+				CE18B0322AF98E020084A91C /* InsightFolioUITests */,
+				CE18B0162AF98DFF0084A91C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE18B0162AF98DFF0084A91C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE18B0152AF98DFF0084A91C /* InsightFolio.app */,
+				CE18B0252AF98E020084A91C /* InsightFolioTests.xctest */,
+				CE18B02F2AF98E020084A91C /* InsightFolioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE18B0172AF98DFF0084A91C /* InsightFolio */ = {
+			isa = PBXGroup;
+			children = (
+				CE18B0182AF98DFF0084A91C /* InsightFolioApp.swift */,
+				CE18B01A2AF98DFF0084A91C /* ContentView.swift */,
+				CE18B01C2AF98E010084A91C /* Assets.xcassets */,
+				CE18B01E2AF98E010084A91C /* Preview Content */,
+			);
+			path = InsightFolio;
+			sourceTree = "<group>";
+		};
+		CE18B01E2AF98E010084A91C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE18B01F2AF98E010084A91C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE18B0282AF98E020084A91C /* InsightFolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE18B0292AF98E020084A91C /* InsightFolioTests.swift */,
+			);
+			path = InsightFolioTests;
+			sourceTree = "<group>";
+		};
+		CE18B0322AF98E020084A91C /* InsightFolioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE18B0332AF98E020084A91C /* InsightFolioUITests.swift */,
+				CE18B0352AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift */,
+			);
+			path = InsightFolioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE18B0142AF98DFF0084A91C /* InsightFolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE18B0392AF98E020084A91C /* Build configuration list for PBXNativeTarget "InsightFolio" */;
+			buildPhases = (
+				CE18B0112AF98DFF0084A91C /* Sources */,
+				CE18B0122AF98DFF0084A91C /* Frameworks */,
+				CE18B0132AF98DFF0084A91C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsightFolio;
+			productName = InsightFolio;
+			productReference = CE18B0152AF98DFF0084A91C /* InsightFolio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE18B0242AF98E020084A91C /* InsightFolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE18B03C2AF98E020084A91C /* Build configuration list for PBXNativeTarget "InsightFolioTests" */;
+			buildPhases = (
+				CE18B0212AF98E020084A91C /* Sources */,
+				CE18B0222AF98E020084A91C /* Frameworks */,
+				CE18B0232AF98E020084A91C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE18B0272AF98E020084A91C /* PBXTargetDependency */,
+			);
+			name = InsightFolioTests;
+			productName = InsightFolioTests;
+			productReference = CE18B0252AF98E020084A91C /* InsightFolioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE18B02E2AF98E020084A91C /* InsightFolioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE18B03F2AF98E020084A91C /* Build configuration list for PBXNativeTarget "InsightFolioUITests" */;
+			buildPhases = (
+				CE18B02B2AF98E020084A91C /* Sources */,
+				CE18B02C2AF98E020084A91C /* Frameworks */,
+				CE18B02D2AF98E020084A91C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE18B0312AF98E020084A91C /* PBXTargetDependency */,
+			);
+			name = InsightFolioUITests;
+			productName = InsightFolioUITests;
+			productReference = CE18B02F2AF98E020084A91C /* InsightFolioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE18B00D2AF98DFF0084A91C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CE18B0142AF98DFF0084A91C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					CE18B0242AF98E020084A91C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CE18B0142AF98DFF0084A91C;
+					};
+					CE18B02E2AF98E020084A91C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CE18B0142AF98DFF0084A91C;
+					};
+				};
+			};
+			buildConfigurationList = CE18B0102AF98DFF0084A91C /* Build configuration list for PBXProject "InsightFolio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE18B00C2AF98DFF0084A91C;
+			productRefGroup = CE18B0162AF98DFF0084A91C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE18B0142AF98DFF0084A91C /* InsightFolio */,
+				CE18B0242AF98E020084A91C /* InsightFolioTests */,
+				CE18B02E2AF98E020084A91C /* InsightFolioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE18B0132AF98DFF0084A91C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE18B0202AF98E010084A91C /* Preview Assets.xcassets in Resources */,
+				CE18B01D2AF98E010084A91C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE18B0232AF98E020084A91C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE18B02D2AF98E020084A91C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE18B0112AF98DFF0084A91C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE18B01B2AF98DFF0084A91C /* ContentView.swift in Sources */,
+				CE18B0192AF98DFF0084A91C /* InsightFolioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE18B0212AF98E020084A91C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE18B02A2AF98E020084A91C /* InsightFolioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE18B02B2AF98E020084A91C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE18B0342AF98E020084A91C /* InsightFolioUITests.swift in Sources */,
+				CE18B0362AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE18B0272AF98E020084A91C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE18B0142AF98DFF0084A91C /* InsightFolio */;
+			targetProxy = CE18B0262AF98E020084A91C /* PBXContainerItemProxy */;
+		};
+		CE18B0312AF98E020084A91C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE18B0142AF98DFF0084A91C /* InsightFolio */;
+			targetProxy = CE18B0302AF98E020084A91C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE18B0372AF98E020084A91C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE18B0382AF98E020084A91C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE18B03A2AF98E020084A91C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InsightFolio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarathsasikala.InsightFolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE18B03B2AF98E020084A91C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InsightFolio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarathsasikala.InsightFolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE18B03D2AF98E020084A91C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarathsasikala.InsightFolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsightFolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InsightFolio";
+			};
+			name = Debug;
+		};
+		CE18B03E2AF98E020084A91C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarathsasikala.InsightFolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsightFolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InsightFolio";
+			};
+			name = Release;
+		};
+		CE18B0402AF98E020084A91C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarathsasikala.InsightFolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsightFolio;
+			};
+			name = Debug;
+		};
+		CE18B0412AF98E020084A91C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarathsasikala.InsightFolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsightFolio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE18B0102AF98DFF0084A91C /* Build configuration list for PBXProject "InsightFolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE18B0372AF98E020084A91C /* Debug */,
+				CE18B0382AF98E020084A91C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE18B0392AF98E020084A91C /* Build configuration list for PBXNativeTarget "InsightFolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE18B03A2AF98E020084A91C /* Debug */,
+				CE18B03B2AF98E020084A91C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE18B03C2AF98E020084A91C /* Build configuration list for PBXNativeTarget "InsightFolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE18B03D2AF98E020084A91C /* Debug */,
+				CE18B03E2AF98E020084A91C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE18B03F2AF98E020084A91C /* Build configuration list for PBXNativeTarget "InsightFolioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE18B0402AF98E020084A91C /* Debug */,
+				CE18B0412AF98E020084A91C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE18B00D2AF98DFF0084A91C /* Project object */;
+}
