@@ -14,6 +14,7 @@
 		CE18B02A2AF98E020084A91C /* InsightFolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0292AF98E020084A91C /* InsightFolioTests.swift */; };
 		CE18B0342AF98E020084A91C /* InsightFolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0332AF98E020084A91C /* InsightFolioUITests.swift */; };
 		CE18B0362AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0352AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift */; };
+		CE18B0442AF991400084A91C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CE18B0432AF991400084A91C /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,10 @@
 		CE18B02F2AF98E020084A91C /* InsightFolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsightFolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE18B0332AF98E020084A91C /* InsightFolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightFolioUITests.swift; sourceTree = "<group>"; };
 		CE18B0352AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightFolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE18B0432AF991400084A91C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		CE18B04B2AF9978B0084A91C /* Develop.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Develop.xcconfig; sourceTree = "<group>"; };
+		CE18B04C2AF997B90084A91C /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		CE18B04D2AF997CE0084A91C /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,8 @@
 		CE18B0172AF98DFF0084A91C /* InsightFolio */ = {
 			isa = PBXGroup;
 			children = (
+				CE18B0492AF995780084A91C /* Configurations */,
+				CE18B0422AF990E80084A91C /* Localizations */,
 				CE18B0182AF98DFF0084A91C /* InsightFolioApp.swift */,
 				CE18B01A2AF98DFF0084A91C /* ContentView.swift */,
 				CE18B01C2AF98E010084A91C /* Assets.xcassets */,
@@ -125,6 +132,32 @@
 				CE18B0352AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift */,
 			);
 			path = InsightFolioUITests;
+			sourceTree = "<group>";
+		};
+		CE18B0422AF990E80084A91C /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				CE18B0432AF991400084A91C /* Localizable.xcstrings */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		CE18B0492AF995780084A91C /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				CE18B04A2AF996B30084A91C /* Build */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		CE18B04A2AF996B30084A91C /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				CE18B04B2AF9978B0084A91C /* Develop.xcconfig */,
+				CE18B04C2AF997B90084A91C /* Staging.xcconfig */,
+				CE18B04D2AF997CE0084A91C /* Release.xcconfig */,
+			);
+			path = Build;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +266,7 @@
 			files = (
 				CE18B0202AF98E010084A91C /* Preview Assets.xcassets in Resources */,
 				CE18B01D2AF98E010084A91C /* Assets.xcassets in Resources */,
+				CE18B0442AF991400084A91C /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +329,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		CE18B0372AF98E020084A91C /* Debug */ = {
+		CE18B0372AF98E020084A91C /* Develop */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04B2AF9978B0084A91C /* Develop.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -347,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -356,10 +391,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Develop;
 		};
 		CE18B0382AF98E020084A91C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04D2AF997CE0084A91C /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -404,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -414,8 +450,9 @@
 			};
 			name = Release;
 		};
-		CE18B03A2AF98E020084A91C /* Debug */ = {
+		CE18B03A2AF98E020084A91C /* Develop */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04B2AF9978B0084A91C /* Develop.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,10 +477,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Develop;
 		};
 		CE18B03B2AF98E020084A91C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04D2AF997CE0084A91C /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,8 +508,9 @@
 			};
 			name = Release;
 		};
-		CE18B03D2AF98E020084A91C /* Debug */ = {
+		CE18B03D2AF98E020084A91C /* Develop */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04B2AF9978B0084A91C /* Develop.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,10 +526,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsightFolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InsightFolio";
 			};
-			name = Debug;
+			name = Develop;
 		};
 		CE18B03E2AF98E020084A91C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04D2AF997CE0084A91C /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,8 +548,9 @@
 			};
 			name = Release;
 		};
-		CE18B0402AF98E020084A91C /* Debug */ = {
+		CE18B0402AF98E020084A91C /* Develop */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04B2AF9978B0084A91C /* Develop.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,10 +564,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = InsightFolio;
 			};
-			name = Debug;
+			name = Develop;
 		};
 		CE18B0412AF98E020084A91C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04D2AF997CE0084A91C /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +583,137 @@
 				TEST_TARGET_NAME = InsightFolio;
 			};
 			name = Release;
+		};
+		CE18B0452AF994060084A91C /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04C2AF997B90084A91C /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Staging;
+		};
+		CE18B0462AF994060084A91C /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04C2AF997B90084A91C /* Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InsightFolio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarathsasikala.InsightFolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
+		CE18B0472AF994060084A91C /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04C2AF997B90084A91C /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarathsasikala.InsightFolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsightFolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InsightFolio";
+			};
+			name = Staging;
+		};
+		CE18B0482AF994060084A91C /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE18B04C2AF997B90084A91C /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarathsasikala.InsightFolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsightFolio;
+			};
+			name = Staging;
 		};
 /* End XCBuildConfiguration section */
 
@@ -548,7 +721,8 @@
 		CE18B0102AF98DFF0084A91C /* Build configuration list for PBXProject "InsightFolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE18B0372AF98E020084A91C /* Debug */,
+				CE18B0372AF98E020084A91C /* Develop */,
+				CE18B0452AF994060084A91C /* Staging */,
 				CE18B0382AF98E020084A91C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -557,7 +731,8 @@
 		CE18B0392AF98E020084A91C /* Build configuration list for PBXNativeTarget "InsightFolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE18B03A2AF98E020084A91C /* Debug */,
+				CE18B03A2AF98E020084A91C /* Develop */,
+				CE18B0462AF994060084A91C /* Staging */,
 				CE18B03B2AF98E020084A91C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -566,7 +741,8 @@
 		CE18B03C2AF98E020084A91C /* Build configuration list for PBXNativeTarget "InsightFolioTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE18B03D2AF98E020084A91C /* Debug */,
+				CE18B03D2AF98E020084A91C /* Develop */,
+				CE18B0472AF994060084A91C /* Staging */,
 				CE18B03E2AF98E020084A91C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -575,7 +751,8 @@
 		CE18B03F2AF98E020084A91C /* Build configuration list for PBXNativeTarget "InsightFolioUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE18B0402AF98E020084A91C /* Debug */,
+				CE18B0402AF98E020084A91C /* Develop */,
+				CE18B0482AF994060084A91C /* Staging */,
 				CE18B0412AF98E020084A91C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
