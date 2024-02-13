@@ -16,6 +16,7 @@
 		CE18B0362AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0352AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift */; };
 		CE18B0442AF991400084A91C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CE18B0432AF991400084A91C /* Localizable.xcstrings */; };
 		CE18B05A2AF9A0920084A91C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE18B0592AF9A0920084A91C /* Colors.xcassets */; };
+		CEF0A4272B7BE25E00C9F839 /* BasicDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0A4262B7BE25E00C9F839 /* BasicDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CE18B04C2AF997B90084A91C /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		CE18B04D2AF997CE0084A91C /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		CE18B0592AF9A0920084A91C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CEF0A4262B7BE25E00C9F839 /* BasicDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		CE18B0172AF98DFF0084A91C /* InsightFolio */ = {
 			isa = PBXGroup;
 			children = (
+				CEF0A4252B7BE22700C9F839 /* NewFolio */,
 				CEBF94552AFC29D700596CC9 /* Views */,
 				CE18B0502AF99DCC0084A91C /* Application */,
 				CE18B0492AF995780084A91C /* Configurations */,
@@ -185,6 +188,14 @@
 				CE18B01A2AF98DFF0084A91C /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CEF0A4252B7BE22700C9F839 /* NewFolio */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0A4262B7BE25E00C9F839 /* BasicDetailsView.swift */,
+			);
+			path = NewFolio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE18B01B2AF98DFF0084A91C /* ContentView.swift in Sources */,
+				CEF0A4272B7BE25E00C9F839 /* BasicDetailsView.swift in Sources */,
 				CE18B0192AF98DFF0084A91C /* InsightFolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

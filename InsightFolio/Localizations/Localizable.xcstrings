@@ -1,7 +1,22 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Basic Details" : {
+
+    },
+    "Description" : {
+
+    },
     "Hello, world!" : {
+
+    },
+    "Monthly Amount" : {
+
+    },
+    "Name" : {
+
+    },
+    "Payment Details" : {
 
     }
   },
