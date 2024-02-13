@@ -18,6 +18,7 @@
 		CE18B05A2AF9A0920084A91C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE18B0592AF9A0920084A91C /* Colors.xcassets */; };
 		CEF0A4272B7BE25E00C9F839 /* BasicDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0A4262B7BE25E00C9F839 /* BasicDetailsView.swift */; };
 		CEF0A4292B7BE67000C9F839 /* FolioDurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0A4282B7BE67000C9F839 /* FolioDurationView.swift */; };
+		CEF0A42B2B7BEA6B00C9F839 /* FolioInterestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0A42A2B7BEA6B00C9F839 /* FolioInterestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		CE18B0592AF9A0920084A91C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		CEF0A4262B7BE25E00C9F839 /* BasicDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDetailsView.swift; sourceTree = "<group>"; };
 		CEF0A4282B7BE67000C9F839 /* FolioDurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioDurationView.swift; sourceTree = "<group>"; };
+		CEF0A42A2B7BEA6B00C9F839 /* FolioInterestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioInterestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 			children = (
 				CEF0A4262B7BE25E00C9F839 /* BasicDetailsView.swift */,
 				CEF0A4282B7BE67000C9F839 /* FolioDurationView.swift */,
+				CEF0A42A2B7BEA6B00C9F839 /* FolioInterestView.swift */,
 			);
 			path = NewFolio;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				CE18B01B2AF98DFF0084A91C /* ContentView.swift in Sources */,
 				CEF0A4272B7BE25E00C9F839 /* BasicDetailsView.swift in Sources */,
 				CE18B0192AF98DFF0084A91C /* InsightFolioApp.swift in Sources */,
+				CEF0A42B2B7BEA6B00C9F839 /* FolioInterestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

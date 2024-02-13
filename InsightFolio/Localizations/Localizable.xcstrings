@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Annual interest percentage. If you are uncertain about the interest, please provide an estimate." : {
+
+    },
     "Basic Details" : {
 
     },
@@ -16,6 +19,9 @@
     "Hello, world!" : {
 
     },
+    "Is compounded? " : {
+
+    },
     "Monthly Amount" : {
 
     },
@@ -26,6 +32,12 @@
 
     },
     "Start Date" : {
+
+    },
+    "Yearly Interest %" : {
+
+    },
+    "Your earnings grow over time as interest accumulates on the initial amount." : {
 
     }
   },
