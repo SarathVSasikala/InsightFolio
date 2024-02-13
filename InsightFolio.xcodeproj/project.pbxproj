@@ -16,6 +16,9 @@
 		CE18B0362AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0352AF98E020084A91C /* InsightFolioUITestsLaunchTests.swift */; };
 		CE18B0442AF991400084A91C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CE18B0432AF991400084A91C /* Localizable.xcstrings */; };
 		CE18B05A2AF9A0920084A91C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE18B0592AF9A0920084A91C /* Colors.xcassets */; };
+		CEF0A4272B7BE25E00C9F839 /* BasicDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0A4262B7BE25E00C9F839 /* BasicDetailsView.swift */; };
+		CEF0A4292B7BE67000C9F839 /* FolioDurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0A4282B7BE67000C9F839 /* FolioDurationView.swift */; };
+		CEF0A42B2B7BEA6B00C9F839 /* FolioInterestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0A42A2B7BEA6B00C9F839 /* FolioInterestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		CE18B04C2AF997B90084A91C /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		CE18B04D2AF997CE0084A91C /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		CE18B0592AF9A0920084A91C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CEF0A4262B7BE25E00C9F839 /* BasicDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDetailsView.swift; sourceTree = "<group>"; };
+		CEF0A4282B7BE67000C9F839 /* FolioDurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioDurationView.swift; sourceTree = "<group>"; };
+		CEF0A42A2B7BEA6B00C9F839 /* FolioInterestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioInterestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		CE18B0172AF98DFF0084A91C /* InsightFolio */ = {
 			isa = PBXGroup;
 			children = (
+				CEF0A4252B7BE22700C9F839 /* NewFolio */,
 				CEBF94552AFC29D700596CC9 /* Views */,
 				CE18B0502AF99DCC0084A91C /* Application */,
 				CE18B0492AF995780084A91C /* Configurations */,
@@ -185,6 +192,16 @@
 				CE18B01A2AF98DFF0084A91C /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CEF0A4252B7BE22700C9F839 /* NewFolio */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0A4262B7BE25E00C9F839 /* BasicDetailsView.swift */,
+				CEF0A4282B7BE67000C9F839 /* FolioDurationView.swift */,
+				CEF0A42A2B7BEA6B00C9F839 /* FolioInterestView.swift */,
+			);
+			path = NewFolio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,8 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF0A4292B7BE67000C9F839 /* FolioDurationView.swift in Sources */,
 				CE18B01B2AF98DFF0084A91C /* ContentView.swift in Sources */,
+				CEF0A4272B7BE25E00C9F839 /* BasicDetailsView.swift in Sources */,
 				CE18B0192AF98DFF0084A91C /* InsightFolioApp.swift in Sources */,
+				CEF0A42B2B7BEA6B00C9F839 /* FolioInterestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

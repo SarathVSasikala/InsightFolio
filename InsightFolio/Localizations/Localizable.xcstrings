@@ -1,7 +1,43 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Annual interest percentage. If you are uncertain about the interest, please provide an estimate." : {
+
+    },
+    "Basic Details" : {
+
+    },
+    "Description" : {
+
+    },
+    "End Date" : {
+
+    },
+    "Folio Duration" : {
+
+    },
     "Hello, world!" : {
+
+    },
+    "Is compounded? " : {
+
+    },
+    "Monthly Amount" : {
+
+    },
+    "Name" : {
+
+    },
+    "Payment Details" : {
+
+    },
+    "Start Date" : {
+
+    },
+    "Yearly Interest %" : {
+
+    },
+    "Your earnings grow over time as interest accumulates on the initial amount." : {
 
     }
   },
