@@ -1,10 +1,25 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "~£00.00" : {
+
+    },
+    "£435,0055.00" : {
+
+    },
+    "5 years 2 months" : {
+
+    },
+    "90,00.00 deposit maid 98.00 (9%) return." : {
+
+    },
     "Annual interest percentage. If you are uncertain about the interest, please provide an estimate." : {
 
     },
     "Basic Details" : {
+
+    },
+    "chart heare" : {
 
     },
     "Description" : {
@@ -13,10 +28,16 @@
     "End Date" : {
 
     },
+    "Fixed deposit" : {
+
+    },
     "Folio Duration" : {
 
     },
     "Is compounded? " : {
+
+    },
+    "Loyds Fixed" : {
 
     },
     "Monthly Amount" : {
@@ -32,6 +53,9 @@
 
     },
     "Start Date" : {
+
+    },
+    "Total Saving" : {
 
     },
     "Yearly Interest %" : {

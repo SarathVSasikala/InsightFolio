@@ -16,6 +16,8 @@ struct ContentView: View {
                 } label: {
                     Text("New Folio")
                 }
+                
+                HomeView()
             }
             .padding()
         }
