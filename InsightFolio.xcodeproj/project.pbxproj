@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0803EF2B86ADC80097A17A /* Folio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0803EE2B86ADC80097A17A /* Folio.swift */; };
 		CE18B0192AF98DFF0084A91C /* InsightFolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B0182AF98DFF0084A91C /* InsightFolioApp.swift */; };
 		CE18B01B2AF98DFF0084A91C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18B01A2AF98DFF0084A91C /* ContentView.swift */; };
 		CE18B01D2AF98E010084A91C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE18B01C2AF98E010084A91C /* Images.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE0803EE2B86ADC80097A17A /* Folio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folio.swift; sourceTree = "<group>"; };
 		CE18B0152AF98DFF0084A91C /* InsightFolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsightFolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE18B0182AF98DFF0084A91C /* InsightFolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightFolioApp.swift; sourceTree = "<group>"; };
 		CE18B01A2AF98DFF0084A91C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0803EC2B86AD9F0097A17A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0A4262B7BE25E00C9F839 /* BasicDetailsView.swift */,
+				CEF0A4282B7BE67000C9F839 /* FolioDurationView.swift */,
+				CEF0A42A2B7BEA6B00C9F839 /* FolioInterestView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE0803ED2B86ADB20097A17A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE0803EE2B86ADC80097A17A /* Folio.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CE18B00C2AF98DFF0084A91C = {
 			isa = PBXGroup;
 			children = (
@@ -208,9 +228,8 @@
 		CEF0A4252B7BE22700C9F839 /* NewFolio */ = {
 			isa = PBXGroup;
 			children = (
-				CEF0A4262B7BE25E00C9F839 /* BasicDetailsView.swift */,
-				CEF0A4282B7BE67000C9F839 /* FolioDurationView.swift */,
-				CEF0A42A2B7BEA6B00C9F839 /* FolioInterestView.swift */,
+				CE0803ED2B86ADB20097A17A /* Model */,
+				CE0803EC2B86AD9F0097A17A /* View */,
 			);
 			path = NewFolio;
 			sourceTree = "<group>";
@@ -349,6 +368,7 @@
 			files = (
 				CEF0A4292B7BE67000C9F839 /* FolioDurationView.swift in Sources */,
 				CE18B01B2AF98DFF0084A91C /* ContentView.swift in Sources */,
+				CE0803EF2B86ADC80097A17A /* Folio.swift in Sources */,
 				CEF0A4272B7BE25E00C9F839 /* BasicDetailsView.swift in Sources */,
 				CEBAEEB12B8557DC003F2FFC /* HomeView.swift in Sources */,
 				CE18B0192AF98DFF0084A91C /* InsightFolioApp.swift in Sources */,
@@ -442,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -500,7 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -697,7 +717,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
