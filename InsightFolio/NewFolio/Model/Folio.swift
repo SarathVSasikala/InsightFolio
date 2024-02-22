@@ -10,7 +10,7 @@ import SwiftData
 
 @Model
 class Folio {
-    var id: String
+    @Attribute(.unique) var id: String
     var name: String
     var folioDescription: String
     var monthlyAmount: String

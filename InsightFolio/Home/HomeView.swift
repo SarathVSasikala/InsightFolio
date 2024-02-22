@@ -6,9 +6,12 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct HomeView: View {
     let items = ["Item 1", "Item 2", "Item 3", "Item 4"]
+    
+    @Query var folios: [Folio]
     
     var body: some View {
         VStack {
