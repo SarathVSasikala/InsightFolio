@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 NavigationLink {
-                    BasicDetailsView()
+                    NewFolioContainerView()
                 } label: {
                     Text("New Folio")
                 }
